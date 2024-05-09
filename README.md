@@ -1,11 +1,3 @@
-JIRA account (for testing only):
-- Mail: myduieen0410@gmail.com
-- Pass: tmd2001040053
-- Site address: tmd-2001040053.atlassian.net
-(Use this URL to log in to Jira Service Management)
-
-
-Execution steps:
 1. Download & setup Ngrok
 
 2. Open CMD, run:
