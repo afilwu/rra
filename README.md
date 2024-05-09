@@ -1,4 +1,4 @@
-JIRA account:
+JIRA account (for testing only):
 - Mail: myduieen0410@gmail.com
 - Pass: tmd2001040053
 - Site address: tmd-2001040053.atlassian.net
