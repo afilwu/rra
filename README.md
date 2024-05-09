@@ -4,9 +4,7 @@
 - cd command to navigate to Ngrok's destination folder
 - $ngrok http 8000
 
-3. Go to https://tmd-2001040053.atlassian.net/plugins/servlet/webhooks
-   
-5. Fill the Ngrok URL you've got in JIRA webhook (with '/webhook/' at the end of URL)
+3. Config a JIRA webhook for even Issue creation with the Ngrok URL you've got (with '/webhook/' at the end of URL)
 
 6. In settings.py, set up ALLOWED_HOSTS = ['Ngrok URL', 'localhost', '127.0.0.1']
 
