@@ -13,11 +13,12 @@ Execution steps:
 - $ngrok http 8000
 
 3. Go to https://tmd-2001040053.atlassian.net/plugins/servlet/webhooks
-Fill the Ngrok URL you've got in JIRA webhook (with '/webhook/' at the end of URL)
+   
+5. Fill the Ngrok URL you've got in JIRA webhook (with '/webhook/' at the end of URL)
 
-4. In settings.py, set up ALLOWED_HOSTS = ['Ngrok URL', 'localhost', '127.0.0.1']
+6. In settings.py, set up ALLOWED_HOSTS = ['Ngrok URL', 'localhost', '127.0.0.1']
 
-5. Open terminal, run:
+7. Open terminal, run:
 - pip install dependencies
 - cd command to navigate to folder containing manage.py
 - $python manage.py runserver
